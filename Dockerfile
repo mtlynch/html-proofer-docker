@@ -1,4 +1,4 @@
-FROM ruby:2.4-alpine
+FROM ruby:2.7.0-alpine3.10
 
 RUN echo 'gem: --no-document' >> /etc/gemrc
 
