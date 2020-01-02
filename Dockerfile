@@ -10,7 +10,7 @@ RUN apk add --no-cache --virtual build-dependencies \
   build-base \
   libxml2-dev \
   libxslt-dev \
-  && gem install html-proofer \
+  && gem install html-proofer --version 3.15.0 \
   && apk del build-dependencies
 
 ENTRYPOINT ["htmlproofer"]
