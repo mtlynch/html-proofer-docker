@@ -1,6 +1,6 @@
 # HTML Proofer, Dockerized
 
-[![CircleCI](https://circleci.com/gh/mtlynch/html-proofer-docker.svg?style=svg)](https://circleci.com/gh/mtlynch/html-proofer-docker)
+[![CircleCI](https://circleci.com/gh/mtlynch/html-proofer-docker.svg?style=svg)](https://circleci.com/gh/mtlynch/html-proofer-docker) [![Docker Pulls](https://img.shields.io/docker/pulls/mtlynch/htmlproofer.svg?maxAge=604800)](https://hub.docker.com/r/mtlynch/htmlproofer/)
 
 HTML validation, made easy. This repository is the [HTML Proofer](https://github.com/gjtorikian/html-proofer) Ruby gem wrapped up in a Docker container, so you don't have to fuss with installing things like [Ruby](https://www.ruby-lang.org/) or [Nokogiri](http://www.nokogiri.org/).
 
