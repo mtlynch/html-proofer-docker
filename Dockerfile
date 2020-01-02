@@ -13,5 +13,8 @@ RUN apk add --no-cache --virtual build-dependencies \
   && gem install html-proofer --version 3.15.0 \
   && apk del build-dependencies
 
+# needed for build scripts
+RUN apk add bash
+
 ENTRYPOINT ["htmlproofer"]
 CMD ["--help"]
