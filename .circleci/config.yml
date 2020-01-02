@@ -1,0 +1,18 @@
+
+version: 2.1
+jobs:
+  build:
+    machine:
+      # Choose an explicit machine image so that we get the latest version of
+      # docker-compose.
+      image: ubuntu-1604:201903-01
+    steps:
+      - checkout
+      - run:
+          name: Run build script
+          command: ./test/run.sh
+workflows:
+  version: 2
+  test-deploy:
+    jobs:
+      - build
