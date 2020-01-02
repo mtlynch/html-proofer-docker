@@ -1,6 +1,0 @@
-sudo: required
-language: ruby
-services:
-  - docker
-script:
-  - ./test/run.sh
